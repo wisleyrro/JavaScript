@@ -11,6 +11,7 @@
             background-color: rgba(105, 105, 173);
             color: white;
             font: normal 20pt Arial;
+            
         }
         h1 {
             color:yellow;
@@ -18,18 +19,13 @@
     </style>
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    <h1>Olá, Mundo!</h1> 
     <p>Já me livrei da maldição</p>
     <script>
-        // <- comentario de linha
-        /* bloco de comando 
-            data types: number (infinity/NaN), string, boolean, null, undefined, object(array), function.
-            verificar o tipo no cmd typeof NomeDaVariavel
-        */
-         window.alert('Minha Primeira mensagem!') //exibir mensagem
-        alert('Minha Segunda mensagem!') //exibir mensagem
-        window.confirm('Está gostando de JS?')// aparece janela com ok e cancelar
-        window.prompt('Qual é seu nome? ') //pergunta uma informação
+        var nome  = window.prompt('Qual é seu nome? ') //pergunta uma informação
+        window.alert('É um grande prazer em te conhecer, '+ nome)
+        /* + usado para concatenar
+        var nome criado a variavel */
     </script>
 </body>
 </html>
